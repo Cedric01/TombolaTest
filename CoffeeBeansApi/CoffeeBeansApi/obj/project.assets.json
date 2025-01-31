@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kehiy\\OneDrive\\Documents\\Tombola\\CoffeeBeansApi\\CoffeeBeansApi\\CoffeeBeansApi.csproj",
+      "projectUniqueName": "C:\\Users\\kehiy\\OneDrive\\Documents\\Tombola\\TombolaTest\\CoffeeBeansApi\\CoffeeBeansApi\\CoffeeBeansApi.csproj",
       "projectName": "CoffeeBeansApi",
-      "projectPath": "C:\\Users\\kehiy\\OneDrive\\Documents\\Tombola\\CoffeeBeansApi\\CoffeeBeansApi\\CoffeeBeansApi.csproj",
+      "projectPath": "C:\\Users\\kehiy\\OneDrive\\Documents\\Tombola\\TombolaTest\\CoffeeBeansApi\\CoffeeBeansApi\\CoffeeBeansApi.csproj",
       "packagesPath": "C:\\Users\\kehiy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kehiy\\OneDrive\\Documents\\Tombola\\CoffeeBeansApi\\CoffeeBeansApi\\obj\\",
+      "outputPath": "C:\\Users\\kehiy\\OneDrive\\Documents\\Tombola\\TombolaTest\\CoffeeBeansApi\\CoffeeBeansApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
