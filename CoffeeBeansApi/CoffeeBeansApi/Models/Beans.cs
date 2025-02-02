@@ -1,6 +1,6 @@
 ﻿namespace CoffeeBeansApi.Models;
 
-public class AllBeans
+public class Beans
 {
     public int Id { get; set; }
     public string Name { get; set; }

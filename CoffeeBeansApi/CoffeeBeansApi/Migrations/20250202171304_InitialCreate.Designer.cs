@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CoffeeBeansApi.Migrations
 {
     [DbContext(typeof(BeansDbContext))]
-    [Migration("20250131214921_InitialCreate")]
+    [Migration("20250202171304_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

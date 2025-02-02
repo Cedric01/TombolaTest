@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeeBeansApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a2121226c7a5741e0adf5a602ceb367b1ba3c9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72755b2d63f3fc598fc0f9d55b195ef3a281acd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeeBeansApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeeBeansApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

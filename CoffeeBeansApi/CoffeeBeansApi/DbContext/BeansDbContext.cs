@@ -8,11 +8,13 @@ public class BeansDbContext : Microsoft.EntityFrameworkCore.DbContext
 {
     public BeansDbContext(DbContextOptions<BeansDbContext> options) : base(options) { }
 
-    public DbSet<AllBeans> AllBeans { get; set; }
+    public DbSet<Beans> Beans { get; set; }
+
+    public DbSet<BeanSelectionHistory> BeanSelectionHistories { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<AllBeans>().HasKey(b => b.Id);
+        modelBuilder.Entity<Beans>().HasKey(b => b.Id);
     }
 }
 
