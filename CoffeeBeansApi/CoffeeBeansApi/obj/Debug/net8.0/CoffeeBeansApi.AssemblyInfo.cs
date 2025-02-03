@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("5da3dfba-b0b2-4b8f-8547-a8f619e4ed99")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeeBeansApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a952f35725ded428cb14a754714d00f15840c1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeeBeansApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeeBeansApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
