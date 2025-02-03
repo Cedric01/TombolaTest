@@ -54,7 +54,7 @@ public class AllBeansRepository : IAllBeansRepository
         if (!beans.Any()) return null;
 
         var yesterday = DateTime.UtcNow.Date.AddDays(-1);
-        var previousSelection = await _context.BeanSelectionHistories
+        var previousSelection = await _context.BeanSelectionHistory
             .OrderByDescending(h => h.SelectedDate)
             .FirstOrDefaultAsync(h => h.SelectedDate == yesterday);
 
@@ -64,7 +64,7 @@ public class AllBeansRepository : IAllBeansRepository
         var random = new Random();
         var beanOfTheDay = availableBeans[random.Next(availableBeans.Count)];
 
-        _context.BeanSelectionHistories.Add(new BeanSelectionHistory { BeanId = beanOfTheDay.Id, SelectedDate = DateTime.UtcNow.Date });
+        _context.BeanSelectionHistory.Add(new BeanSelectionHistory { BeanId = beanOfTheDay.Id, SelectedDate = DateTime.UtcNow.Date });
         await _context.SaveChangesAsync();
 
         return beanOfTheDay;
